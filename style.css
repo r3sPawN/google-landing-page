@@ -1,0 +1,72 @@
+.google-navbar {
+  height: 40px;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.google-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.google-body {
+  height: calc(100% - 80px);
+}
+
+.google-navbar-avatar{
+  width: 30px;
+  margin-left: 10px;
+}
+
+.google-navbar-avatar:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.google-navbar-accout-image {
+  width: 30px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.google-gmail-link {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.google-gmail-link:hover {
+  text-decoration: underline;
+}
+
+
+.google-footer {
+  height: 40px;
+  width: 100%;
+  background-color:#f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.google-logo {
+  width: 400;
+  margin-top: 100px;
+}
+
+.search-bar {
+  border: groove;
+  border-radius: 20px;
+  border-color: ghostwhite;
+  width: 400;
+  height: 33;
+}
+
