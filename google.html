@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="margin: 0;">
+<body>
   <div class="google-container">
     <div class="google-navbar">
       <a class="google-gmail-link" href="gmail.com">Gmail</a>
@@ -15,21 +15,18 @@
     </div>
     <div class="google-body">
       <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-      <div class="search-container">
-        <form action="search">
-          <input class="image-search-bar" type="image" src="https://clipartart.com/images/free-search-icon-clipart-4.png" width="24px">
-          <input class="search-bar" type="text"  name="search">
-          <!-- <input class="image-microphone" type="image" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"> -->
-          <div class="image-microphone">
-            <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" width="26">
-          </div>
+      <div class="search-bar">
+          <img class="image-search-bar" src="https://clipartart.com/images/free-search-icon-clipart-4.png">
+          <input class="search-bar-input" type="text"  name="search">
+          <div class="tooltip-container">
+          <img class="google-image-microphone" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
           <div class="tooltip">
             <span>Search by voice</span> 
           </div>
-        </form>
+          </div>
       </div>
       <div class="buttons">
-        <button class="style-button" type="button">Google Search</button>
+        <button class="style-button">Google Search</button>
         <button class="style-button">I am Felling lucky</button>
       </div>
     </div>
